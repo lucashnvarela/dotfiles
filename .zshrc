@@ -2,8 +2,12 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="maran"
 
-zstyle ':omz:update' mode reminder # remind me to update when its time
-zstyle ':omz:update' frequency 7 # how often to auto-update
+# oh-my-zsh update settings
+zstyle ':omz:update' mode reminder 
+zstyle ':omz:update' frequency 7
+
+# disable completion menu
+zstyle ':completion:*' menu no 
 
 # standard plugins can be found in $ZSH/plugins/
 # custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -11,6 +15,8 @@ plugins=(
     #git 
     zsh-autosuggestions 
     zoxide 
+    fzf
+    fzf-tab
 )
 
 source $ZSH/oh-my-zsh.sh
