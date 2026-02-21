@@ -13,7 +13,7 @@
   "workbench.settings.editor": "json",
   "workbench.editor.splitInGroupLayout": "vertical",
   "workbench.editor.labelFormat": "default",
-  "workbench.colorTheme": "Cursor Dark",
+  "workbench.colorTheme": "Serendipity Midnight",
   "workbench.iconTheme": "symbols",
   "symbols.hidesExplorerArrows": false,
   "workbench.statusBar.visible": true,
@@ -27,8 +27,11 @@
   "editor.tabSize": 2,
   "editor.lineHeight": 1.4,
   "editor.rulers": [80, 120],
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.minimap.enabled": false,
   "editor.links": false,
+  "editor.cursorSurroundingLines": 9000,
   "editor.lineNumbers": "relative",
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": false,
@@ -38,6 +41,7 @@
   "editor.renderLineHighlight": "gutter",
   "editor.suggestSelection": "first",
   "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.bracketPairColorization.enabled": false,
 
   "breadcrumbs.enabled": false,
 
@@ -71,7 +75,7 @@
     "vscodevim.vim": 1,
   },
 
-  "find-it-faster.general.batTheme": "Visual Studio Dark+",
+  "find-it-faster.general.batTheme": "serendipity-midnight",
   "find-it-faster.general.killTerminalAfterUse": true,
   "find-it-faster.general.useTerminalInEditor": true,
 
