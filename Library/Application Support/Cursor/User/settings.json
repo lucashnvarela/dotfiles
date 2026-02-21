@@ -1,0 +1,80 @@
+{
+  "update.mode": "manual",
+  "update.showReleaseNotes": false,
+
+  "security.workspace.trust.untrustedFiles": "newWindow",
+
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0.25,
+
+  "workbench.editor.enablePreview": false,
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.settings.editor": "json",
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.editor.labelFormat": "default",
+  "workbench.colorTheme": "Cursor Dark",
+  "workbench.iconTheme": "symbols",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.statusBar.visible": true,
+
+  "terminal.integrated.fontFamily": "Menlo",
+  "terminal.integrated.fontSize": 12,
+
+  "editor.fontFamily": "Menlo",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 12.5,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 1.4,
+  "editor.rulers": [80, 120],
+  "editor.minimap.enabled": false,
+  "editor.links": false,
+  "editor.lineNumbers": "relative",
+  "editor.parameterHints.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.linkedEditing": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  "breadcrumbs.enabled": false,
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.d.ts",
+    "*.js": "${capture}.js.map, ${capture}.d.ts",
+    "package.json": "package-lock*, pnpm-lock*, bun.lock*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+  },
+
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/__pycache__": true
+  },
+
+  "git.confirmSync": false,
+
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+  },
+
+  "find-it-faster.general.batTheme": "Visual Studio Dark+",
+  "find-it-faster.general.killTerminalAfterUse": true,
+  "find-it-faster.general.useTerminalInEditor": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+}

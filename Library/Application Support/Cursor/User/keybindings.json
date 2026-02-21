@@ -1,0 +1,36 @@
+[
+  {
+    "key": "alt+h",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "alt+l",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "alt+shift+h",
+    "command": "workbench.action.focusPreviousGroup"
+  },
+  {
+    "key": "alt+shift+l",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "alt+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+shift+g",
+    "command": "-editor.action.previousMatchFindAction",
+  },
+  {
+    "key": "cmd+shift+g",
+    "command": "workbench.view.scm",
+  },
+]
