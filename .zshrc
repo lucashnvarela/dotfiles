@@ -1,18 +1,16 @@
-# path to oh-my-zsh 
 export ZSH="$HOME/.oh-my-zsh"
 
-# set name of the theme to load
 ZSH_THEME="maran"
 
-# remind me to update when its time
-zstyle ':omz:update' mode reminder  
-
-# how often to auto-update
-zstyle ':omz:update' frequency 7
+zstyle ':omz:update' mode reminder # remind me to update when its time
+zstyle ':omz:update' frequency 7 # how often to auto-update
 
 # standard plugins can be found in $ZSH/plugins/
 # custom plugins may be added to $ZSH_CUSTOM/plugins/
-plugins=(git)
+plugins=(
+    #git 
+    zoxide 
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -30,6 +28,3 @@ alias l="ls -lA"
 alias rm="rm -i"
 alias cp="cp -i"
 alias mv="mv -i"
-
-# load zoxide
-eval "$(zoxide init zsh)"
