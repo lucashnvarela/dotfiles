@@ -12,7 +12,6 @@ zstyle ':completion:*' menu no
 # standard plugins can be found in $ZSH/plugins/
 # custom plugins may be added to $ZSH_CUSTOM/plugins/
 plugins=(
-    #git 
     zsh-autosuggestions 
     zoxide 
     fzf
