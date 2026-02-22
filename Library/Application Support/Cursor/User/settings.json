@@ -26,6 +26,7 @@
   "editor.fontSize": 12.5,
   "editor.tabSize": 2,
   "editor.lineHeight": 1.4,
+  "editor.wordWrap": "off",
   "editor.rulers": [80, 120],
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
@@ -68,6 +69,10 @@
   },
 
   "git.confirmSync": false,
+
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": true,
 
   "vim.easymotion": true,
   "vim.useSystemClipboard": true,
