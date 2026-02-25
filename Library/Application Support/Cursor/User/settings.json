@@ -33,7 +33,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.minimap.enabled": false,
   "editor.links": false,
-  "editor.cursorSurroundingLines": 9000,
+  "editor.cursorSurroundingLines": 9000, // keep editor centered
   "editor.lineNumbers": "relative",
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": false,
