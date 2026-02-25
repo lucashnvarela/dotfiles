@@ -10,6 +10,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "left",
   "workbench.settings.editor": "json",
   "workbench.editor.splitInGroupLayout": "vertical",
   "workbench.editor.labelFormat": "default",
