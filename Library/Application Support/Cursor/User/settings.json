@@ -10,6 +10,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": true,
   "workbench.sideBar.location": "left",
   "workbench.settings.editor": "json",
   "workbench.editor.splitInGroupLayout": "vertical",
@@ -17,7 +18,6 @@
   "workbench.colorTheme": "Serendipity Midnight",
   "workbench.iconTheme": "symbols",
   "symbols.hidesExplorerArrows": false,
-  "workbench.statusBar.visible": true,
 
   "terminal.integrated.fontFamily": "Menlo",
   "terminal.integrated.fontSize": 12,
