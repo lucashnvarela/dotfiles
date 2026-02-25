@@ -82,9 +82,7 @@
   },
 
   "find-it-faster.general.batTheme": "serendipity-midnight",
+  "find-it-faster.general.shellPathForTerminal": "/bin/bash",
   "find-it-faster.general.killTerminalAfterUse": true,
   "find-it-faster.general.useTerminalInEditor": true,
-
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
 }

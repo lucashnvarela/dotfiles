@@ -16,7 +16,6 @@
 [pager]
 	branch = false
 	tag = false
-	stash = false
 
 [diff]
 	context = 3

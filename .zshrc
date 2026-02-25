@@ -37,10 +37,34 @@ bindkey "^p" history-search-backward
 bindkey "^n" history-search-forward
 
 # aliases
-alias gs=$HOME/repos/gs/gs.sh
+alias gss="$HOME/repos/gss/gss.sh"
 
+# -ls
 alias ll="ls -l"
 alias l="ls -lA"
+
+# -git
+alias gb="git branch"
+alias gba="git branch --all"
+alias ga="git add"
+alias gd="git diff"
+alias gc="git commit --message"
+alias gca="git commit --amend --no-edit"
+alias gx="git checkout"
+alias gxn="git checkout -b"
+alias gph="git push"
+alias gpl="git pull"
+alias gs="git status"
+alias gm="git merge"
+alias gi="git init"
+alias gcl="git clone"
+alias gl="git log --all \
+  --pretty=format:'%C(magenta)%h %C(white)%an %ar %C(auto)%D %n%s %n'"
+
+# -tmux
+alias ta="tmux attach-session"
+alias tl="tmux list-sessions"
+alias tn="tmux new-session -s"
 
 # ask for the magic word
 alias rm="rm -i"
