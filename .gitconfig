@@ -1,0 +1,96 @@
+[user]
+	name = lucas.varela
+	email = lucashnvarela.code@gmail.com
+
+[init]
+	defaultbranch = main
+
+[core]
+	compression = 9
+
+[advice]
+	addEmptyPathspec = false
+	pushNonFastForward = false
+	statusHints = false
+
+[pager]
+	branch = false
+	tag = false
+	stash = false
+
+[diff]
+	context = 3
+	renames = copies
+	algorithm = histogram
+
+[status]
+	branch = true
+	short = true
+	renames = copies
+	showStash = true
+	showUntrackedFiles = all
+
+[stash]
+	showIncludeUntracked = true
+
+[push]
+	autoSetupRemote = true
+	default = current
+	followTags = true
+
+[pull]
+	rebase = true
+	default = current
+
+[rebase]
+	autoStash = true
+	missingCommitsCheck = warn
+
+[branch]
+	sort = -committerdate
+
+[tag]
+	sort = -taggerdate
+
+[log]
+	abbrevCommit = true
+
+[interactive]
+	singlekey = true
+
+[color.branch]
+  current  = magenta
+  local    = default
+  remote   = yellow
+  upstream = green
+  plain    = blue
+
+[color.status]
+	localBranch = magenta
+	remoteBranch = yellow
+	updated = green
+	changed = cyan
+	untracked = yellow
+
+[color.diff]
+	meta = white dim
+	commit = green
+	frag = magenta
+	old = red
+	new = green
+	context = white
+	whitespace = red reverse
+
+	newMoved = cyan dim
+	oldMoved = blue dim
+	newMovedAlternative = cyan italic
+	oldMovedAlternative = blue italic
+
+[color.decorate]
+	HEAD = red
+	branch = magenta
+	tag = green
+	remoteBranch = yellow
+
+[url "git@github.com:"]
+	insteadOf = "gh:"
