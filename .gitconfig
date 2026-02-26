@@ -8,6 +8,9 @@
 [core]
 	compression = 9
 
+[protocol]
+	version = 2
+
 [advice]
 	addEmptyPathspec = false
 	pushNonFastForward = false
